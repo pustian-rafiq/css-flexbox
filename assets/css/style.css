@@ -1,0 +1,221 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+body{
+	color:#333;
+	font-size: 14px;
+	font-family: 'Poppins',sans-serif;
+}
+.area{
+	width: 1170px;
+	margin: 0 auto;
+}
+.header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 20px 0;
+	background-color:green;
+
+}
+.logo a{
+	text-transform: capitalize;
+	color:#ffffff;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 28px;
+} 
+.menu ul{
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+}
+.menu ul li a{
+	 text-decoration: none;
+	 color: #333;
+	 padding: 10px 20px;
+	 font-size: 16px;
+	 display: block;
+}
+.menu ul li a:hover{
+	 background-color: blue;
+	 color:white;
+ 
+}
+
+.banner{
+	margin-bottom: 20px;
+}
+.banner img{
+	width: 100%;
+	border:2px solid grey;
+	padding:1px;
+}
+
+.welcome{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.welcome-menu h4, .welcome-content h4{
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+}
+.welcome-menu{
+	width: 15%;
+}
+.welcome-content{
+	flex-basis: 85%;
+	text-align: justify;
+}
+.welcome-menu ul{
+	list-style: none;
+	 
+	 
+}
+.welcome-menu ul li a{
+	 text-decoration: none;
+	 color: #333;
+	 font-size: 16px;
+	 padding: 5px 0;
+	 display: block;
+	 
+}
+.welcome-inner{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 25px;
+	justify-content: space-between;
+	/*warp and basis use kora hoi essa moto width dauar jonno*/
+}
+.single-welcome{
+	flex-basis: 45%;
+}
+.single-welcome{
+	text-align: justify;
+}
+
+
+/*Services style*/
+
+.services {
+  padding: 30px 10px;
+  background-color: antiquewhite;
+}
+ 
+.title {
+  text-align: center;
+  padding-bottom: 40px;
+}
+.title h4 {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+ 
+.services-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.single-service img {
+  width: 100%;
+
+}
+.single-service {
+  flex-basis: 32%;
+   border: 1px solid black;
+   padding: 5px;
+   margin: 5px;
+
+}
+.single-service h4 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.single-service a, .about-left a {
+  background: cyan;
+  padding: 5px 5px;
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+/*About us*/
+.about-us {
+  padding-top:20px ;
+  padding-bottom: 20px; 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.about-left {
+  flex-basis: 75%;
+}
+.about-left p{
+ text-align: justify;
+}
+.about-menu {
+  flex-basis: 20%;
+}
+.about-left h4, .about-menu h4{
+  font-size: 25px;
+  text-transform: capitalize;
+}
+.about-menu ul {
+ 
+  list-style: none;
+}
+.about-menu ul li a {
+  text-decoration: none;
+  font-size: 15px;
+  color: chocolate;
+}
+/*Footer section Style*/
+
+.footer-top {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+ 
+.single-footer:nth-child(1) {
+  flex-basis: 25%;
+    text-align: justify;
+}
+.single-footer:nth-child(2) {
+  flex-basis: 30%;
+    text-align: justify;
+}
+.single-footer:nth-child(3) {
+ 
+  flex-basis: 40%;
+    text-align: justify;
+}
+ .single-footer h4{
+ 	font-size: 20px;
+ 	padding-bottom: 10px;
+ 	text-transform: capitalize;
+ }
+ .footer{
+ 	padding: 10px;
+ 	color:#fff;
+ 	text-align: center;
+ 	font-weight: bold;
+ 	background-color: grey;
+ }
