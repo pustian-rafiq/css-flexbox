@@ -2,12 +2,46 @@
 <html>
 <head>
 	<title>CSS Flex Box</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/navbar.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 </head>
 <body>
 	 <div class="area">
-	 	<div class="header">
+
+	 	<nav>
+			  <ul class="menu">
+			    <li class="logo"><a href="#">Creative Mind Agency</a></li>
+			    <li class="item"><a href="#">Home</a></li>
+			    <li class="item"><a href="#">About</a></li>
+			    <li class="item has-submenu">
+			      <a tabindex="0">Services</a>
+			      <ul class="submenu">
+			        <li class="subitem"><a href="#">Design</a></li>
+			        <li class="subitem"><a href="#">Development</a></li>
+			        <li class="subitem"><a href="#">SEO</a></li>
+			        <li class="subitem"><a href="#">Copywriting</a></li>
+			      </ul>
+			    </li>
+			    <li class="item has-submenu">
+			      <a tabindex="0">Plans</a>
+			      <ul class="submenu">
+			        <li class="subitem"><a href="#">Freelancer</a></li>
+			        <li class="subitem"><a href="#">Startup</a></li>
+			        <li class="subitem"><a href="#">Enterprise</a></li>
+			      </ul>
+			    </li>
+			    <li class="item"><a href="#">Blog</a></li>
+			    <li class="item"><a href="#">Contact</a>
+			    </li>
+			    <li class="item button"><a href="#">Log In</a></li>
+			    <li class="item button secondary"><a href="#">Sign Up</a></li>
+			    <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+			  </ul>
+			</nav>
+	 	<!-- <div class="header">
 	 		<div class="logo">
 	 			<a href="">Rafiqul Islam</a>
 	 		</div>
@@ -21,7 +55,7 @@
 	 			 	<li><a href="">Blog</a></li>
 	 			 </ul>
 	 		</div>
-	 	</div>
+	 	</div> -->
 	 	<div class="banner">
 	 		<img src="assets/images/banner3.jpg">
 	 	</div>
@@ -162,5 +196,7 @@
 	 		<p>&copy; 2021</p>
 	 	</div>
 	 </div>
+
+	 <script type="text/javascript" src="assets/js/script.js"></script>
 </body>
 </html>
